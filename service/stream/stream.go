@@ -20,6 +20,7 @@ func GetVideo(c *gin.Context){
 			gin.H{
 				"error" : "内部错误",
 			})
+		return
 	}
 
 	c.Writer.Header().Set("Content-Type","video/mp4")
