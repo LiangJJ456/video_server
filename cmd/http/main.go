@@ -1,5 +1,6 @@
 package main
-import(
+
+import (
 	"github.com/gin-gonic/gin"
 	"video_server/cmd/http/middleware"
 )
